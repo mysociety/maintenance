@@ -1,0 +1,77 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 1em 4em 1em;
+  max-width: 28em;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: #4faded;
+}
+
+.logo {
+  display: inline-block;
+  padding: 14px 16px;
+  background-color: #fff;
+}
+
+img {
+  border: none;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1em;
+  margin: 1em 0 0.5em 0;
+  font-weight: 600;
+}
+
+p {
+  font-size: 21px;
+  line-height: 1.4em;
+  margin: 1em 0 0 0;
+}
+
+.social {
+  font-size: 18px;
+  padding: 0;
+  margin: 2em -1em 0 -1em;
+}
+
+.social li {
+  list-style: none;
+  margin: 0 1em 0.5em 1em;
+}
+
+.social a {
+  color: #cfecff;
+  text-decoration: none;
+}
+
+.social a:hover,
+.social a:focus {
+  color: #fff;
+}
+
+.social img {
+  vertical-align: -0.33em;
+  margin-right: 0.3em;
+}
+
+@media(min-width: 24em){
+  h1 {
+    font-size: 4em;
+  }
+
+  .social {
+    margin-top: 3em;
+  }
+
+  .social li {
+    display: inline;
+    margin-bottom: 0;
+  }
+}

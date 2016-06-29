@@ -2,22 +2,102 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>example.mysociety.org - Down for maintenance</title>
+    <title>{{site}} – Down for maintenance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <style>
+      html {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body {
+        margin: 0 auto;
+        padding: 0 1em 4em 1em;
+        max-width: 28em;
+        font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+        color: #fff;
+        background-color: #4faded;
+      }
+
+      .logo {
+        display: inline-block;
+        padding: 14px 16px;
+        background-color: #fff;
+      }
+
+      img {
+        border: none;
+      }
+
+      h1 {
+        font-size: 3em;
+        line-height: 1em;
+        margin: 1em 0 0.5em 0;
+        font-weight: 600;
+      }
+
+      p {
+        font-size: 21px;
+        line-height: 1.4em;
+        margin: 1em 0 0 0;
+      }
+
+      .social {
+        font-size: 18px;
+        padding: 0;
+        margin: 2em -1em 0 -1em;
+      }
+
+      .social li {
+        list-style: none;
+        margin: 0 1em 0.5em 1em;
+      }
+
+      .social a {
+        color: #cfecff;
+        text-decoration: none;
+      }
+
+      .social a:hover,
+      .social a:focus {
+        color: #fff;
+      }
+
+      .social img {
+        vertical-align: -0.33em;
+        margin-right: 0.3em;
+      }
+
+      @media(min-width: 24em){
+        h1 {
+          font-size: 4em;
+        }
+
+        .social {
+          margin-top: 3em;
+        }
+
+        .social li {
+          display: inline;
+          margin-bottom: 0;
+        }
+      }
+    </style>
   </head>
   <body>
     <a href="https://www.mysociety.org" class="logo">
-      <img src="logo.png" width="200" height="45" alt="mySociety">
+      <img width="200" height="45" alt="mySociety" src="https://raw.githubusercontent.com/mysociety/maintenance/master/logo.png">
     </a>
     <h1>Oops! You caught us!</h1>
-    <p>example.mysociety.org is currently unavailable while we perform a spot of maintenance.</p>
+    <p>{{site}} is currently unavailable while we perform a spot of maintenance.</p>
     <p>Check back in a few minutes, and everything should be back in order.</p>
     <p>Thanks for your patience.</p>
     <ul class="social">
-      <li><a href="https://twitter.com/mysociety"><img src="twitter.png" width="24" height="24" alt="Twitter"> @mysociety</a></li>
-      <li><a href="https://facebook.com/mysociety"><img src="facebook.png" width="16" height="24" alt="Facebook"> /mysociety</a></li>
+      <li><a href="https://twitter.com/mysociety"><img width="24" height="24" alt="Twitter" src="https://raw.githubusercontent.com/mysociety/maintenance/master/twitter.png">
+          @mysociety</a></li>
+      <li><a href="https://facebook.com/mysociety"><img width="16" height="24" alt="Facebook" src="https://raw.githubusercontent.com/mysociety/maintenance/master/facebook.png">
+          /mysociety</a></li>
     </ul>
   </body>
 </html>
